@@ -1,0 +1,169 @@
+.highlight {
+    color: blue;
+    font-weight: 800;
+}
+.btn {
+  background-color: blue;
+  border: none;
+  height: 48px;
+  width: 132px;
+  color: white;
+  border-radius: 5px;
+
+
+ }
+ 
+
+.btn:hover {
+    background-color: rgb(222, 166, 13); 
+    color: black;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+}
+.hero-wrapper {
+    background-image: url(Assets/Hero-bg.png);
+    padding: 14px 28px 14px 28px;
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
+.hero-section {
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+ 
+   
+}
+.hero-text{
+font-weight: 700;
+font-size: 34px;
+}
+.action {
+  display: flex;
+  padding: 15px 30px 15px 30px;
+  gap: 20px;
+  justify-content: space-around;
+}
+.action-img{
+  width: 300px;
+}
+.action-btn {
+  background-color: blue;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.action-btn:hover{
+  background-color: chartreuse;
+  color: black;
+}
+.para {
+  font-size: small;
+  font-style: normal;
+}
+.join-content {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.join-section {
+  padding:20px 40px 20px 40px;
+  text-align: center;
+  background-color: beige;
+  border-radius: 5px;
+}
+.highlight-join {
+ font-size: larger;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-weight: bolder;
+ color: blue;
+ font-size: 50px;
+}
+.review-text {
+  text-align: center;
+  margin-bottom: 32px;
+
+}
+.review-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 32px;
+  box-shadow: rgb( 0,90, 13, 222);
+  gap: 24px;
+  border: red;
+}
+.review-name{
+    display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+.avatar-user{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.review-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  flex: 1;
+}
+.stars img {
+  width: 16px;
+}
+.focus-section {
+  text-align: center;
+  padding: 15px 30px 15px 30px;
+  gap: 3px;
+}
+.wc-box{
+  padding: 12px;
+  border-radius: 15px;
+}
+.focus-img{
+  border-radius: 12px;
+}
+.input-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: rgb(214, 239, 239);
+}
+.form {
+  padding: 30px ;
+  gap: 24px;
+}
+.input-text {
+  font-size: 66px;
+}
+.btn-input{
+  padding: 10px 25px 10px 25px;
+  margin-top: 10px;
+  border: none;
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+}
+.footer {
+  text-align: center;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-items a {
+  text-decoration: none;
+}
