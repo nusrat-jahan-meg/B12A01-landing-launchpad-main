@@ -73,6 +73,9 @@ font-size: 34px;
   justify-items: center;
   justify-content: center;
   justify-content: space-between;
+  padding: 44px ;
+  text-align: center;
+ 
 }
 .join-section {
   padding:20px 40px 20px 40px;
